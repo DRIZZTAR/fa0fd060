@@ -1,6 +1,5 @@
 import Header from './Header';
 import Footer from './Footer';
-import PropTypes from 'prop-types';
 
 function Layout({
 	children,
@@ -24,12 +23,5 @@ function Layout({
 		</main>
 	);
 }
-Layout.propTypes = {
-	children: PropTypes.node.isRequired,
-	inboxCount: PropTypes.number.isRequired,
-	archivedCount: PropTypes.number.isRequired,
-	activeTab: PropTypes.string.isRequired,
-	setActiveTab: PropTypes.func.isRequired,
-};
 
 export default Layout;
