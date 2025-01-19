@@ -12,7 +12,7 @@ const Heart = ({ x, y }) => (
 		}}
 		transition={{ duration: 1.5, ease: 'easeOut' }}
 	>
-		🟢
+		❤️
 	</motion.div>
 );
 
