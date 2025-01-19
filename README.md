@@ -1,8 +1,8 @@
 # Speer Mobile App
 
-![Home Page](public/readMeHomePage.png)
-
 - **Deployment Link**: [Link to live app](https://speer-skakun.vercel.app/)
+
+![Home Page](public/readMeHomePage.png)
 
 ## Summary
 The goal of this project was to create a small ReactJS application with the following features:
@@ -23,8 +23,9 @@ The goal of this project was to create a small ReactJS application with the foll
 1. Individual calls can be archived or unarchived by clicking on the archive icon.
 2. Loading screen that runs if server is being spun up.
 3. Conditional rendering and animations for the archive and unarchive buttons. Including Motion transitions, and messages that show when lists are empty
-4.. Smooth slide of green tab indicator for switch between inbox and archive tabs.
-5.. Home Button Easter Egg, random Heart emojies fade in and out when clicked.
+4. Smooth slide of green tab indicator for switch between inbox and archive tabs.
+5. Home Button Easter Egg, random Heart emojies fade in and out when clicked.
+6. Inbox number is carried through ui from header to icon phone icon in footer
 
 ### Technologies Used:
 - **ReactJS**: Frontend library for building user interfaces.

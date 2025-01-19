@@ -10,7 +10,7 @@ function Header({ inboxCount, archivedCount, activeTab, setActiveTab }) {
 					<div className='w-3 h-3 rounded-full bg-[#FEBC2E] shadow-[inset_0_-4px_4px_rgba(0,0,0,0.5)]'></div>
 					<div className='w-3 h-3 rounded-full bg-[#28C840] shadow-[inset_0_-4px_4px_rgba(0,0,0,0.5)]'></div>
 				</div>
-				<div className='flex-1 text-center text-sm font-medium text-[#4A4A4A]'>
+				<div className='flex-1 text-center text-sm font-medium text-[#4A4A4A] pr-14'>
 					({inboxCount ?? 0}) Speer Mobile
 				</div>
 			</div>
