@@ -1,4 +1,4 @@
-# Speer Mobile App
+# Speer Mobile App Exercise / Tyson Skakun
 
 - **Deployment Link**: [Link to live app](https://speer-skakun.vercel.app/)
 
