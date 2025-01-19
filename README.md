@@ -1,6 +1,6 @@
 # Speer Mobile App Exercise / Tyson Skakun
 
-- **Deployment Link**: [Link to live app](https://speer-skakun.vercel.app/)
+- **Deployment Link**: [https://speer-skakun.vercel.app/](https://speer-skakun.vercel.app/)
 
 ![Home Page](public/readMeHomePage.png)
 
