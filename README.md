@@ -26,6 +26,8 @@ The goal of this project was to create a small ReactJS application with the foll
 4. Smooth slide of green tab indicator for switch between inbox and archive tabs.
 5. Home Button Easter Egg, random Heart emojies fade in and out when clicked.
 6. Inbox number is carried through ui from header to icon phone icon in footer
+7. Notification bubble on phone in footer smoothly fades out and in when number goes to 0 or from 0.
+8. Archive All and Unarchive All buttons are disabled when there are no calls to archive or unarchive.
 
 ### Technologies Used:
 - **ReactJS**: Frontend library for building user interfaces.
