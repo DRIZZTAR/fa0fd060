@@ -5,7 +5,7 @@ import FloatingHearts from './FloatingHearts';
 function Footer({ inboxCount }) {
 	const [showHearts, setShowHearts] = useState(false);
 	return (
-		<div className='border-t bg-gradient-to-b from-gray-200 via-gray-50 to-gray-200 px-4 py-2 w-full'>
+		<div className='border-t bg-gradient-to-b from-gray-200 via-gray-50 to-gray-200 px-4 w-full'>
 			<div className='flex items-center justify-between'>
 				<button className='flex flex-col items-center relative cursor-default'>
 					<Phone className='h-6 w-6 text-gray-400 pb-2 sm:pb-0' />
@@ -42,8 +42,8 @@ function Footer({ inboxCount }) {
 				<button className='flex flex-col items-center cursor-default'>
 					<Settings className='h-6 w-6 text-gray-400 pb-2 sm:pb-0' />
 				</button>
-				<button className='flex flex-col items-center relative cursor-default pb-2 sm:pb-0'>
-					<div className='flex items-center justify-center w-7 h-7 rounded-full border-2 border-gray-300 relative'>
+				<button className='flex flex-col cursor-default pb-2 sm:pb-0'>
+					<div className='flex items-center justify-center w-6 h-6 sm:w-7 sm:h-7 rounded-full border-2 border-gray-300 relative'>
 						<div className='h-3 w-3 rounded-full bg-green-500 shadow-[inset_0_-4px_4px_rgba(0,0,0,0.5)]'></div>
 					</div>
 				</button>
